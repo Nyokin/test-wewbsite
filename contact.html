@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Test_Website">
+	<meta name="author" content="Annageldi Arazmyradov">
+	<title>Contact Page</title>
+	<link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    
+<header class="header"> 
+    
+    <div class ="logo-text">
+		<h1>Discover Turkmenistan</h1>
+		
+    </div>
+       
+   <nav class="topnav">
+		<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="blog.html">Blog</a></li>
+		<li><a href="contribute.html">Contribute</a></li>
+		<li><a href="bookstoread.html">Books to Read</a></li>
+		<li style="float:right"><a class="active" href="contact.html">Contact</a></li>
+		</ul>
+   </nav>
+</header>
+    
+<h2>Contact Us</h2>
+<form action="/contactpage.php" method="POST">
+<fieldset>
+    <legend>Please Contact Using the Form Below</legend>
+    <p>We will try to respond as soon as possible</p>
+    
+		<label for="firstname">Name:</label>
+		<input type="text" name="firstname" id="firstname">
+		<label for="lastname">Last Name:</label>
+		<input type="text" name="lastname" id="lastname">
+		<label for="email">Email:</label>
+		<input type="text" name="email" id="email">
+		<br><br>
+		<label for="comment"></label>
+		<textarea name="comment" id="comment" rows="10" cols="100" placeholder="Enter Your Comments"></textarea>
+    
+    <p>Please Tell Us About Your Interests: <input type="text" list="interest" name="education"></p>
+    <datalist id="interest">
+		<option value="Culture">
+		<option value="Traditions">
+		<option value="Language">
+		<option value="History">
+		<option value="Nature">
+		<option value="Literature">
+		<option value="People">
+		<option value="Tourism Destinations">
+		<option value="UNESCO Sites">
+		<option value="History Sites">
+		<option value="General">
+    </datalist>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+ </fieldset>
+	
+</form>
+</body>
+    
+</html>
