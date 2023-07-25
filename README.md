@@ -1,1 +1,1 @@
-# test-wewbsite to practice Web Development Skills
+# test-website to practice Web Development Skills
